@@ -1,0 +1,40 @@
+.hamburger{
+    color:black;
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 29px;
+    z-index:12;
+}
+.sidebar_{
+    z-index:10;
+    text-decoration: underline;
+    padding-top:60px;
+    min-height:100vh;
+    position:absolute;
+    top:0;
+    width:200px;
+    transform: translateX(-100%);
+    transition: ease-in-out 500ms;
+    /* background-color: lightyellow; */
+    background-color: rgba(255,255,224,0.7);
+}
+.sidebar_  .navbar-text:hover{
+    /* background-color:white; */
+    font-size:21px;
+}
+#sidebar_active{
+    left:0;
+    transform: translateX(0%);
+}
+.sidebar_ .navbar-text{
+    text-decoration:none;
+    transition: ease-in 100ms;
+    box-sizing: content-box;
+    padding: 8px 10px;
+    /* color:white; */
+    color:black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    font-size: 20px;
+}

@@ -1,0 +1,1 @@
+export const BASE_API_URL = "https://campa360-backend-cl2h.vercel.app";
